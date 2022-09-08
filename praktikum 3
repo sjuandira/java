@@ -1,0 +1,53 @@
+import java.util.Scanner;
+public class Praktik3 {
+    public static void main(String[] args) {
+
+        Scanner input= new Scanner(System.in);
+        
+        while(true){
+            System.out.print("Masukan nilai anda: ");
+            int nilai= input.nextInt();
+            String huruf_mutu;
+            
+            if(nilai>100){
+                System.out.println("NILAI TIDAK SESUAI!");
+                break;
+            }
+            
+            if(nilai>=76)
+                huruf_mutu="A";
+            else if(nilai>=71)
+                huruf_mutu="B+";
+            else if(nilai>=66)
+                huruf_mutu="B";
+            else if(nilai>=61)
+                huruf_mutu="C+";
+            else if(nilai>=56)
+                huruf_mutu="C";
+            else if(nilai>=50)
+                huruf_mutu="D";
+            else
+                huruf_mutu="E";
+            
+            switch(huruf_mutu){
+                case "A": System.out.println("Lulus");
+                    break;
+                case "B+": System.out.println("Lulus");
+                    break;
+                case "B": System.out.println("Lulus");
+                    break;
+                case "C+": System.out.println("Lulus");
+                    break;
+                case "C": System.out.println("Lulus");
+                    break;
+                case "D": System.out.println("Lulus Bersyarat");
+                    break;
+                case "E": System.out.println("Tidak Lulus");
+                    break;
+                default: System.out.println("HURUF MUTU TIDAK SESUAI!");
+            }
+            break;
+        }
+    }
+    
+}
