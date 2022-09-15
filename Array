@@ -27,7 +27,6 @@ public class Array{
 //        for(int print:nilai){
 //            System.out.print(print+" ");
 //        }
-        
         //array multidimensi
         int[][] nilai= {{88,90,77,85},{86,90,79,87},{88,96,90,87}};
         //mencetak nilai array multidimensi
@@ -35,10 +34,7 @@ public class Array{
             for(int j:i){
                 System.out.println(j);
             }
-            
-            
         }
-    
 }
 };
 }
