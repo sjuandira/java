@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Array{
+  public static void main(String[] args){
+  int [] number= {1,3,5,7,9};
+  for(int num:number){
+    System.out.println(num);}
+    //menginput nilai array
+//        Scanner input= new Scanner(System.in);
+//        
+//        int[] nilai= new int[3];
+//        System.out.print("Masukan nilai matematika anda: ");
+//        nilai[0]= input.nextInt();
+//        System.out.print("Masukan nilai logika anda: ");
+//        nilai[1]= input.nextInt();
+//        System.out.print("Masukan nilai bahasa indonesia anda: ");
+//        nilai[2]= input.nextInt();
+//        System.out.print("Nilai anda: ");
+//        for(int print:nilai){
+//            System.out.print(print+" ")
+//        }
+
+//        //memanipulasi nilai array
+//        nilai[0]= 85;
+//        System.out.println("");
+//        System.out.print("Setelah dimanipulasi: ");
+//        for(int print:nilai){
+//            System.out.print(print+" ");
+//        }
+        
+        //array multidimensi
+        int[][] nilai= {{88,90,77,85},{86,90,79,87},{88,96,90,87}};
+        //mencetak nilai array multidimensi
+        for(int[] i:nilai){
+            for(int j:i){
+                System.out.println(j);
+            }
+            
+            
+        }
+    
+}
+};
+}
