@@ -34,7 +34,7 @@ public class Praktikum4{
 //        for (int in:arr){
 //            System.out.print(in+" ");
 //        }
-        //no3
+        //no3: membuat array lalu menjumlahkan nilai array
 //        int n= input.nextInt();
 //        int arr[]= new int[n];
 //        
