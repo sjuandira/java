@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Praktikum4{
   public static void main(String[] args){
     Scanner input= new Scanner(System.in);
-        //no1
+        //no1: membuat array lalu mencari nilai apakah terdapat di dalam array tersebut
 //        int n= input.nextInt();
 //        int arr[]= new int[n];
 //        
