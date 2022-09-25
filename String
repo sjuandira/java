@@ -10,5 +10,13 @@ public class String{
     kalimat= kalimat+kata+" ";
    }
    System.out.println(kalimat);
+   
+   //no 2
+   String str= input.nextLine();
+   int x= input.nextInt();
+   int y= input.nextInt();
+   System.out.println(str.subtring(x,y));
+   
+   //no 3
   }
 }
