@@ -1,0 +1,14 @@
+public class String{
+  public static main void(String[] args){
+    Scanner input= new Scanner(System.in);
+   //no 1
+   int n= input.nextInt();
+   input.nextLine();
+   String kalimat="";
+   for(int i=0; i<n; i++){
+    String kata= input.nextLine();
+    kalimat= kalimat+kata+" ";
+   }
+   System.out.println(kalimat);
+  }
+}
