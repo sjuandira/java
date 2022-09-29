@@ -1,3 +1,4 @@
+//untuk praktikum 5
 public class Mahasiswa{
   public String nama;
   public String npm;
