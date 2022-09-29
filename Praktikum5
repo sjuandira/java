@@ -1,0 +1,8 @@
+public class Praktikum5{
+  public static void main(String[] args){
+    Mahasiswa mhs1= new Mahasiswa();
+    mhs1.nama="Salsabila Juandira";
+    mhs1.npm="2117051012";
+    
+  }
+}
