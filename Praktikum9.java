@@ -9,7 +9,7 @@ public class Praktikum9_SalsabilaJuandira {
 //        System.out.println("Method Static");
 //    }
 public static class Tabung {
-    private static final double phi= 3.14;
+    private static final double phi= Math.PI;
     
     public static double volume(double r, double t){
         double volume= phi*r*r*t;        
