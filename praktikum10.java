@@ -22,7 +22,27 @@ public class Praktikum10_SalsabilaJuandira {
         System.out.println("Luas segiempat: "+se.Luas());
         System.out.println("Keliling segiempat: "+se.Keliling());
         System.out.println();
-    }
+        
+        //polimorphism
+//         BangunDatar bd= new BangunDatar("hitam");
+//         System.out.println("Warna bangun datar: "+bd.getWarna());
+//         System.out.println();
+        
+//         BangunDatar l= new Lingkaran("Merah", 26.0);
+//         System.out.println("Luas lingkaran: "+l.Luas());
+//         System.out.println("Keliling lingkaran: "+l.Keliling());
+//         System.out.println();
+        
+//         BangunDatar st= new SegiTiga("Kuning", 15,7);
+//         System.out.println("Luas segitiga: "+st.Luas());
+//         System.out.println("Keliling segitiga: "+st.Keliling());
+//         System.out.println();
+        
+//         BangunDatar se= new SegiEmpat("Biru",10);
+//         System.out.println("Luas segiempat: "+se.Luas());
+//         System.out.println("Keliling segiempat: "+se.Keliling());
+//         System.out.println();
+   }
     
 }
 
