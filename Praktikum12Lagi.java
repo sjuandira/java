@@ -23,8 +23,8 @@ public class Praktikum12_SalsabilaJuandira {
         System.out.println(nilai);
         
         MahasiswaPrak12 mhs1 = new MahasiswaPrak12("Salsa","2117051012", nilai);
-        mhs1.setNilai(nilai);
-        System.out.println("Nilai rata-rata: "+ mhs1.nilaiRataRata());
+//        mhs1.setNilai(nilai);
+        mhs1.nilaiRataRata();
     }
     
 }
@@ -81,9 +81,10 @@ public class MahasiswaPrak12 {
            sum+= this.nilai.get(i);
        }
        try{
-       return sum/this.nilai.size();}
+           System.out.println("Nilai rata-rata: "+ sum/this.nilai.size());
+       }
        catch(Exception e){
-           return 0;
+           System.out.println("Nilai rata-rata: "+e.getMessage());;
        }
    }
    
