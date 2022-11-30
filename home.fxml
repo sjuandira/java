@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="prak14_salsabilajuandira.HomeController">
+    <stylesheets>
+        <URL value="@home.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="234.0" layoutY="108.0" text="Nama: Salsabila Juandira" />
+      <Label layoutX="251.0" layoutY="135.0" text="NPM: 2117051012" />
+      <Label layoutX="278.0" layoutY="162.0" text="Umur: 8" />
+      <Button layoutX="272.0" layoutY="200.0" mnemonicParsing="false" text="submitt" />
+   </children>
+</AnchorPane>
